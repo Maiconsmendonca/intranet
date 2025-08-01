@@ -2,6 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use App\Http\Controllers\CourseController;
+use App\Http\Controllers\LessonController;
+use App\Http\Controllers\QuizController;
+use App\Http\Controllers\CertificationController;
+use App\Http\Controllers\ModuleController;
+use App\Http\Controllers\ProgressController;
 
 Route::get('/', function () {
     return Inertia::render('welcome');
